@@ -1,0 +1,1 @@
+<?php// checking textfunction user_system_test_input($data){    $data = trim($data);    $data = stripslashes($data);    $data = htmlspecialchars($data);    return $data;}// for messaging text checkingfunction message_input($data){    $data = trim($data);    $data = htmlspecialchars($data);    return $data;}
